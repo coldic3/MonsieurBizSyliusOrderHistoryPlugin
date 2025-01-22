@@ -13,14 +13,19 @@ machine events.
 
 ## Compatibility
 
-| Sylius Version | PHP Version |
-|---|---|
-
-| 1.11 | 8.1 - 8.2 |
-| 1.12 | 8.1 - 8.3 |
-| 1.13 | 8.1 - 8.3 |
+| Sylius Version | PHP Version     |
+|----------------|-----------------|
+| 1.12           | 8.1 - 8.2 - 8.3 |
+| 1.13           | 8.1 - 8.2 - 8.3 |
+| 1.14           | 8.1 - 8.2 - 8.3 |
 
 ## Installation
+
+If you want to use our recipes, you can configure your composer.json by running:
+
+```bash
+composer config --no-plugins --json extra.symfony.endpoint '["https://api.github.com/repos/monsieurbiz/symfony-recipes/contents/index.json?ref=flex/master","flex://defaults"]'
+```
 
 Install the plugin via composer:
 
